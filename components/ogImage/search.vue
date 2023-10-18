@@ -14,11 +14,13 @@ defineProps<{
   </div>
 </template>
 
-<style scoped lang="scss">
+<style scoped>
 h1 {
 	color: blue;
+  transform: translateX(3rem);
 }
 .some-text-element {
   color: red;
+  transform: translateX(-3rem);
 }
 </style>
